@@ -1,0 +1,22 @@
+# Nuxt dev/build outputs
+.output
+.nuxt
+
+# generated files and folders
+node_modules/
+/dist/
+
+# Misc
+.DS_Store
+
+# Local env files
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*/sw.js
