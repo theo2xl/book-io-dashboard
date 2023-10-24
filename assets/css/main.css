@@ -10,7 +10,7 @@
     @apply text-2xl border-b border-teal-500 pb-2 font-semibold;
   }
   .button {
-    @apply text-white text-center hover:text-teal-700 my-6 font-semibold text-xl bg-purple-500 w-full py-4 rounded-full hover:bg-teal-500
+    @apply text-white text-center hover:text-teal-900 my-6 font-semibold text-xl bg-purple-500 w-full py-4 rounded-full hover:bg-teal-500
   }
   .input {
     @apply bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-teal-500 focus:border-teal-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-teal-500 dark:focus:border-teal-500;
