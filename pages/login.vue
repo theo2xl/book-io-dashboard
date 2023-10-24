@@ -7,14 +7,14 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api'
-import Login from '@/components/Login.vue'
+import { defineComponent } from "@nuxtjs/composition-api";
+import Login from "@/components/Login.vue";
 export default defineComponent({
-  name: 'App',
-  layout: 'auth/layout',
+  name: "App",
+  layout: "auth/layout",
   components: { Login },
   setup() {
-    return {}
+    return {};
   },
-})
+});
 </script>
