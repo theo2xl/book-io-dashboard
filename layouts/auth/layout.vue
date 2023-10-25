@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-purple-200">
+  <section class="theme-bg">
     <div class="p-4">
       <nuxt-link to="/">
         <img

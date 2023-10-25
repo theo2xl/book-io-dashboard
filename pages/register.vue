@@ -1,19 +1,20 @@
 <template>
   <div class="flex md:h-screen w-11/12">
     <div class="w-full">
-      <Login />
+      <Register />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "@nuxtjs/composition-api";
-import Login from "@/components/Login.vue";
+import Register from "@/components/Register.vue";
+
 export default defineComponent({
-  name: "App",
   auth: "guest",
+  name: "App",
   layout: "auth/layout",
-  components: { Login },
+  components: { Register },
   setup() {
     return {};
   },
