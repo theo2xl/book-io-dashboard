@@ -1,6 +1,16 @@
 # book-io-dashboard
 The book-io-dashboard allows users to register, login, and select their favorite book from a list of books. The project VueJS, Nuxt, Tailwind and persists their choices through a REST API. It is also responsive and designed mobile-first so it is intended to look good on any device.
 
+## Contents
+- [book-io-dashboard](#book-io-dashboard)
+  - [Contents](#contents)
+  - [Provided API Endpoints](#provided-api-endpoints)
+  - [Build Setup](#build-setup)
+    - [`yarn`](#yarn)
+    - [-- `OR` --](#---or---)
+    - [`npm`](#npm)
+  - [Using the Dashboard](#using-the-dashboard)
+
 ## Provided API Endpoints
 The API repo can be found at: https://github.com/book-io/web-interview-project-signup-wizard. Make sure it is running first.
 
