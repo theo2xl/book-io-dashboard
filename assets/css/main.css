@@ -3,14 +3,26 @@
 @tailwind utilities;
 
 @layer base {
+  div {
+    @apply font-barlow;
+  }
   h1 {
-    @apply text-3xl;
+    @apply text-5xl text-gray-800 dark:text-white;
   }
   h2 {
-    @apply text-2xl border-b border-teal-500 pb-2 font-semibold;
+    @apply text-3xl border-b border-teal-500 pb-2 font-semibold;
+  }
+  h3 {
+    @apply text-2xl text-gray-900;
+  }
+  h4 {
+    @apply text-lg text-gray-900;
+  }
+  .theme-bg {
+    @apply bg-purple-200 dark:bg-purple-400;
   }
   .button {
-    @apply text-white text-center hover:text-teal-700 my-6 font-semibold text-xl bg-purple-500 w-full py-4 rounded-full hover:bg-teal-500
+    @apply text-white text-center hover:text-teal-900 my-6 font-semibold text-xl bg-purple-500 w-full py-4 rounded-full hover:bg-teal-500
   }
   .input {
     @apply bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-teal-500 focus:border-teal-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-teal-500 dark:focus:border-teal-500;
@@ -20,5 +32,8 @@
   }  
   .link {
     @apply font-semibold hover:text-teal-500
+  }
+  p.description {
+    @apply text-sm text-gray-800 py-8
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <section>
     <Notification :message="error" v-if="error" />
-    <div class="font-barlow">
+    <div>
       <h2>Login</h2>
       <form method="post" @submit.prevent="login">
         <div class="grid gap-2 mb-4 py-2">
@@ -15,26 +15,28 @@
               required
             />
           </div>
+          <div>
+            <label for="password" class="label">Password</label>
+            <input
+              type="password"
+              class="input"
+              name="password"
+              v-model="password"
+              required
+            />
+          </div>
         </div>
         <div>
-          <label for="password" class="label">Password</label>
-          <input
-            type="password"
-            class="input"
-            name="password"
-            v-model="password"
-            required
-          />
-        </div>
-        <div class="button">
-          <button type="submit">Login</button>
+          <button class="button" type="submit">Login</button>
         </div>
       </form>
 
-      <div>
-        Don't have an account?
-        <span class="link"><nuxt-link to="/">Register</nuxt-link></span>
-      </div>
+      <nuxt-link to="/register"
+        ><div>
+          Don't have an account?
+          <span class="link">Register</span>
+        </div>
+      </nuxt-link>
     </div>
   </section>
 </template>
@@ -62,14 +64,9 @@ export default {
           username: this.username,
           password: this.password,
         });
+        localStorage.setItem("username", this.username);
 
-        await this.$auth.loginWith("local", {
-          data: {
-            password: this.password,
-          },
-        });
-
-        this.$router.push("/");
+        this.$router.push("/books");
       } catch (e) {
         this.error =
           "Uh, oh. Looks like something went wrong. Please try again.";
