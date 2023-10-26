@@ -59,8 +59,8 @@ will pass
 *  Logout and login again. Your selection should still be displayed 🎉
 
 ## Screenshots
-<img width="720" alt="Screenshot 2023-10-25 at 10 20 31 PM" src="https://github.com/theo2xl/book-io-dashboard/assets/2512916/5148c2f9-42b2-4b25-b3f1-441d913ad455">
-<img width="720" alt="Screenshot 2023-10-25 at 9 59 26 PM" src="https://github.com/theo2xl/book-io-dashboard/assets/2512916/6f278aa0-2cdb-4459-958e-71dc8935fa00">
-
+<img width="924" alt="Screenshot 2023-10-25 at 10 20 31 PM" src="https://github.com/theo2xl/book-io-dashboard/assets/2512916/5148c2f9-42b2-4b25-b3f1-441d913ad455">
+<img width="924" alt="Screenshot 2023-10-25 at 9 59 26 PM" src="https://github.com/theo2xl/book-io-dashboard/assets/2512916/6f278aa0-2cdb-4459-958e-71dc8935fa00">
+<img width="308" alt="Screenshot 2023-10-26 at 8 16 08 AM" src="https://github.com/theo2xl/book-io-dashboard/assets/2512916/a5d24731-4658-4cd7-8e67-0c7009f152d7">
 <img width="309" alt="Screenshot 2023-10-25 at 10 24 31 PM" src="https://github.com/theo2xl/book-io-dashboard/assets/2512916/c01a54a1-71b8-4444-a898-6a3ef565a3cc">
 <img width="307" alt="Screenshot 2023-10-25 at 10 26 10 PM" src="https://github.com/theo2xl/book-io-dashboard/assets/2512916/47e5cf04-35c4-4381-b4c9-bd9f738cf1c1">
