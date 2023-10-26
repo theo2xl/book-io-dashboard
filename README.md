@@ -1,5 +1,5 @@
 # book-io-dashboard
-The book-io-dashboard allows users to register, login, and select their favorite book from a list of books. The project VueJS, Nuxt, Tailwind and persists their choices through a REST API. It is also responsive and designed mobile-first so it is intended to look good on any device.
+The book-io-dashboard allows a user to register an account, login, and select their favorite book from a list of books. The project is built with [Vue.js](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/), [Nuxt](https://nuxt.com/), and [Tailwind](https://tailwindcss.com/). Favorites are persisted through a REST API that you can set up by follwing the [instrutions below](#provided-api-endpoints). It is responsive and designed mobile-first, so it is intended to look good on any device 📱
 
 ## Contents
 - [book-io-dashboard](#book-io-dashboard)
@@ -7,9 +7,9 @@ The book-io-dashboard allows users to register, login, and select their favorite
   - [Provided API Endpoints](#provided-api-endpoints)
   - [Build Setup](#build-setup)
     - [`yarn`](#yarn)
-    - [-- `OR` --](#---or---)
     - [`npm`](#npm)
   - [Using the Dashboard](#using-the-dashboard)
+  - [Screenshots](#screenshots)
 
 ## Provided API Endpoints
 The API repo can be found at: https://github.com/book-io/web-interview-project-signup-wizard. Make sure it is running first.
@@ -23,7 +23,7 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 ```
-### -- `OR` --
+-- `OR` --
 ### `npm`
 ```bash
 # install dependencies
