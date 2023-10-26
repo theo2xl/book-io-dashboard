@@ -5,6 +5,7 @@
 # generated files and folders
 node_modules/
 /dist/
+/coverage/*
 
 # Misc
 .DS_Store
