@@ -48,12 +48,12 @@ $ npm run dev
 
 ## Using the Dashboard
 
-*  [Register](http://localhost:3000/register) an account.
+*  [Register](http://localhost:3000/register) an account
    *  Choose a username and a password
    *  The email has minimal validation, a@a.com will pass
    *  Don't worry about the email, I just added it so it looked different than the login page and it is not used during the `/login` process
 *  Logged in? Great 👍 Let's pick your favorite book 📖
 *  Once selected your favorite book will be highligted by a ⭐️ and will show in the first position of the list
-*  Can't decide your favoirte book? No worries, select another book in case you change your mind.
+*  Can't decide your favoirte book? No worries, select another book in case you change your mind
 *  Logout and login again. Your selection should still be displayed 🎉
 
